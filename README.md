@@ -40,3 +40,9 @@ sudo update-initramfs -u
 ```shell
 export BLINKA_MCP2221=1
 ```
+
+The newpixels use this library: https://github.com/todbot/circuitpython_led_effects/blob/main/fire1/fire_leds.py
+
+The audiofile it plays this from adafruit: https://cdn-learn.adafruit.com/assets/assets/000/069/608/original/StreetChicken.wav?1547834233 from this tutorial https://learn.adafruit.com/adafruit-prop-maker-featherwing?view=all
+
+Also requires a secrets.py file

@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "m4cube"
+version = "0.1.0"
+description = ""
+authors = ["Oakwright <abby.oakwright@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+circuitpython-stubs = "^8.1.0"
+circup = "^1.2.3"
+adafruit-circuitpython-neopixel = "^6.3.9"
+adafruit-circuitpython-display-text = "^2.28.3"
+adafruit-circuitpython-esp32spi = "^5.0.5"
+adafruit-circuitpython-nunchuk = "^1.1.7"
+adafruit-circuitpython-bme680 = "^3.5.0"
+adafruit-circuitpython-displayio-sh1107 = "^1.5.11"
+adafruit-circuitpython-progressbar = "^2.3.11"
+adafruit-circuitpython-bme280 = "^2.6.22"
+adafruit-circuitpython-st7735r = "^1.5.12"
+adafruit-circuitpython-simpleio = "^3.0.11"
+adafruit-circuitpython-ticks = "^1.0.11"
+adafruit-circuitpython-hid = "^5.3.6"
+adafruit-circuitpython-midi = "^1.4.16"
+adafruit-circuitpython-register = "^1.9.16"
+adafruit-circuitpython-fancyled = "^1.4.17"
+adafruit-circuitpython-asyncio = "^0.5.22"
+adafruit-circuitpython-requests = "^1.14.1"
+adafruit-circuitpython-busdevice = "^5.2.6"
+adafruit-circuitpython-lis3dh = "^5.1.23"
+adafruit-circuitpython-led-animation = "^2.7.2"
+adafruit-circuitpython-adafruitio = "^5.7.1"
+adafruit-circuitpython-display-shapes = "^2.6.2"
+adafruit-circuitpython-imageload = "^1.17.3"
+adafruit-circuitpython-rgbled = "^1.1.16"
+adafruit-circuitpython-wii-classic = "^1.0.2"
+circuitpython-wiichuck = "^0.0.3"
+adafruit-circuitpython-ntp = "^3.0.9"
+hidapi = "^0.14.0"
+adafruit-blinka = "^8.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
